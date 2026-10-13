@@ -1,0 +1,22 @@
+{
+  "name": "dashu-sitewatch-worker",
+  "version": "1.0.0",
+  "description": "大叔巡站 DS SITEWATCH - Workers 后端",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "monitoring",
+    "uptime"
+  ],
+  "author": "DS Diary",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
